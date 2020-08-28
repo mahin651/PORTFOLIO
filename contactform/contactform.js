@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
 
     f.children('input').each(function() { // run all inputs
 
-      var i = $(this); // current input
+      var i = $(this); 
       var rule = i.attr('data-rule');
 
       if (rule !== undefined) {
